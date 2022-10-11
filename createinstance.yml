@@ -3,7 +3,7 @@
   hosts: all
   become: false
   vars:
-    ceateec_keypair: sept
+    createec_keypair: sept
     createec_instance_type: t2.micro
     createec_security_group: launch-wizard-2
     createec_image: ami-092b43193629811af
