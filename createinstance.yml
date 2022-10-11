@@ -1,6 +1,6 @@
 ---
-- name: build app
-  hosts: all
+- name: build instance
+  hosts: localhost
   become: false
   vars:
     createec_keypair: sept
