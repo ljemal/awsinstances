@@ -10,4 +10,4 @@
     compile_region: us-east-2
     compile_instance_name: instance
   roles:
-    - ljemal.demos.createec
+    - ljemal.compile.createec
