@@ -1,0 +1,6 @@
+---
+- name: build instance
+  hosts: localhost
+  become: false
+  roles:
+   - ljemal.compile.ssh
