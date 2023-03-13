@@ -9,5 +9,6 @@
     createec_image: ami-092b43193629811af
     compile_region: us-east-2
     compile_instance_name: instance
+    ec2_instance_count: 1
   roles:
     - ljemal.compile.createec
